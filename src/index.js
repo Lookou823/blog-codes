@@ -1,13 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+// import Demo from "../src/demo.tsx";
+import MultiItems from "../src/multi-items.tsx";
+import MultiItemsDelegation from "../src/multi-items-delegation.tsx";
+// import Demo from "../src/demo2.tsx";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <MultiItemsDelegation /> */}
+    <MultiItems />
   </React.StrictMode>
 );
 
